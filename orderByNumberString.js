@@ -1,4 +1,4 @@
-function kata(num) {
+function orderByNumberString(num) {
   return Number.parseInt(
     num
       .toString()
@@ -8,4 +8,4 @@ function kata(num) {
   );
 }
 
-module.exports = kata;
+module.exports = orderByNumberString;
